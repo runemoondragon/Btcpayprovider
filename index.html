@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="BTCPayprovider">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Longest-running third-party host for BTCPay Server.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- Site Title  -->
+    <title>BTCPayprovider</title>
+    <!-- Vendor Bundle CSS -->
+    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=142">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/style.css?ver=142">
+    <link rel="stylesheet" href="assets/css/theme-java.css?ver=142">
+    <style>
+        .price-tag {
+            margin: 20px 0;
+        }
+
+        .price-tag .price {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .price-tag .discount {
+            display: block;
+            color: #46bdf4;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .features-box {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 30px;
+            margin: 15px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .features-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .features-box h3 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .features-box p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 25px;
+        }
+
+        .btn-outline {
+            border: 2px solid #46bdf4;
+            background: transparent;
+            color: #fff;
+            padding: 8px 25px;
+            border-radius: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline:hover {
+            background: #46bdf4;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body class="theme-dark io-azure io-azure-pro" data-spy="scroll" data-target="#mainnav" data-offset="80">
+
+    <!-- Header -->
+    <header class="site-header is-sticky">
+        <!-- Navbar -->
+        <div class="navbar navbar-expand-lg is-transparent" id="mainnav">
+            <nav class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img class="logo logo-dark" alt="logo" src="images/logo.png" srcset="images/logo2x.png 2x">
+                    <img class="logo logo-light" alt="logo" src="images/logo-white.png" srcset="images/logo-white2x.png 2x">
+                </a>
+
+                <div class="language-switcher">
+                    <a href="#" data-toggle="dropdown">EN</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">ET</a>
+
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+                    <span class="navbar-toggler-icon">
+                        <span class="ti ti-align-justify"></span>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link menu-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link menu-link" href="#demo">Demo</a></li>
+                        <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
+
+
+                    </ul>
+                    <ul class="navbar-nav navbar-btns">
+                        <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#Services">REGISTER</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#Services">LOG IN</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Navbar -->
+
+        <!-- Banner/Slider -->
+        <div id="header" class="banner banner-full d-flex align-items-center">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="row align-items-center mobile-center">
+                        <div class="col-lg-6 col-md-12 order-lg-first">
+                            <div class="header-txt">
+                                <h1>START ACCEPTING <br class="d-none d-xl-block"> PAYMENTS in Bitcoin <br class="d-none d-xl-block"> With zero Fees.</h1>
+                                <!--<p class="lead"> Making payments faster, more secure, and less<br class="d-none d-xl-block"> expensive on a global scale.</p>-->
+                                <ul class="btns">
+                                    <li><a href="https://bti.btcpayprovider.com/plugins/subscription/PrPxHuGYKCVE8dM3w1gQM13yeZR" target="_blank" class="btn">TRY IT</a></li>
+                                    <!--<li><a class="btn btn-alt" href="#intro">Learn More</a>
+
+                                    </li>-->
+                                </ul>
+                            </div>
+                        </div><!-- .col  -->
+                        <div class="col-lg-6 col-md-12 order-first res-m-bttm-lg">
+                            <div class="header-image-alt">
+                                <img src="images/header-image-blue.png" alt="header">
+                            </div>
+                        </div><!-- .col  -->
+                    </div><!-- .row  -->
+                </div><!-- .banner-content  -->
+            </div><!-- .container  -->
+        </div>
+        <!-- End Banner/Slider -->
+        <!--<div class="header-partners">
+			<div class="container">
+				<div class="row align-items-center">
+					<ul class="partner-list-s2 d-flex flex-wrap align-items-center">
+						<li>Our <br> Partners</li>
+						<li><a href="#"><img src="images/partner-xs-light-a.png" alt="partner"></a></li>
+						<li><a href="#"><img src="images/partner-xs-light-b.png" alt="partner"></a></li>
+						<li><a href="#"><img src="images/partner-xs-light-c.png" alt="partner"></a></li>
+						<li><a href="#"><img src="images/partner-xs-light-d.png" alt="partner"></a></li>
+						<li><a href="#"><img src="images/partner-xs-light-e.png" alt="partner"></a></li>
+					</ul>
+				</div><!-- .row  -->
+        </div><!-- .container  -->
+        </div><!-- .header-partners  -->-->
+        <a href="#intro" class="scroll-down menu-link">SCROLL DOWN</a>
+    </header>
+    <!-- End Header -->
+
+    
+    <div class="section section-pad section-bg section-pro">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 offset-md-1">
+                    <div class="video-graph res-m-btm">
+                        <img src="images/btcpayserver.png" alt="graph">
+                        <a href="https://vimeo.com/330290302" class="play-btn-alt video-play">
+                            <em class="fa fa-play"></em>
+                            <span></span>
+                        </a>
+                    </div>
+                </div><!-- .col  -->
+                <div class="col-md-6 order-md-first order-last">
+                    <div class="text-block">
+                        <h6 class="heading-xs">What is BTCPayProvider?</h6>
+                        <h2>Hosting services<br>provide users with easy access to BTCPayServer.</h2>
+                        <p>BTCPayServer is a secure and censorship-resistant digital payment processor.</p>
+                        <p>The service is non-custodial, meaning you have sole access to your funds and use any Bitcoin wallet to accept payments.</p>
+                        <p>you can Accept Bitcoin Lightning Network payments. Seamlessly use your Strike Wallet for Lightning transactions on btcpayserver.</p>
+                        <p>You have access to point-of-sale web application, easy tools for WooCommerce and Shopify, a billing system, a crowdfunding app, and more.</p>
+
+                    </div>
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+        </div><!-- .conatiner  -->
+    </div>
+    <!-- End Section -->
+
+    <!-- Start subscription Section -->
+    <div class="section section-pad section-bg team-section section-gradiant section-fix bg-fixed" id="Services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="section-head-s2 text-center">
+                        <h2 class="section-title">Choose Duration</h2>
+                        <p>Select the subscription that best fits your needs</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <!-- 30-Day Plan -->
+                        <div class="col-md-4">
+                            <div class="features-box text-center">
+                                <h3>30-Day </h3>
+                                <div class="price-tag">
+                                    <!--<span class="price">$29.99</span>-->
+                                    <span class="discount">Save 0%</span>
+                                </div>
+                                <p>Ideal for short-term projects or trying out BTCPay Server.</p>
+                                <button onclick="window.open('https://bti.btcpayprovider.com/plugins/subscription/PrPxHuGYKCVE8dM3w1gQM13yeZR', '_blank')" class="btn btn-outline">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                        <!-- 60-Day Plan -->
+                        <div class="col-md-4">
+                            <div class="features-box text-center">
+                                <h3>60-Day </h3>
+                                <div class="price-tag">
+                                    <!--<span class="price">$56.99</span>-->
+                                    <span class="discount">Save 5%</span>
+                                </div>
+                                <p>A great option for businesses looking for extended uptime.</p>
+                                <button onclick="window.open('https://bti.btcpayprovider.com/plugins/subscription/SzhwXW2opbHMQkQMpe8fFqy9FzZ', '_blank')" class="btn btn-outline">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                        <!-- 90-Day Plan -->
+                        <div class="col-md-4">
+                            <div class="features-box text-center">
+                                <h3>90-Day </h3>
+                                <div class="price-tag">
+                                    <!--<span class="price">$80.99</span>-->
+                                    <span class="discount">Save 10%</span>
+                                </div>
+                                <p>Best value for long-term users with uninterrupted service.</p>
+                                <button onclick="window.open('https://bti.btcpayprovider.com/plugins/subscription/4GjargCZ9txXBBkjixQd6w4Nc1B', '_blank')" class="btn btn-outline">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section -->
+
+    <!-- Start Section -->
+    <div class="section section-pad section-bg section-pro">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2">
+                    <div class="section-head-s2">
+                        <!--<h6 class="heading-xs">Why BTCPay provider </h6>-->
+                        <h2 class="section-title">Why Choose BTCPayProvider</h2>
+
+                    </div>
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="features-box">
+                        <img src="images/features-icon-light-a.png" alt="features">
+                        <h5>Infrastructure</h5>
+                        <p>BTCPayProvider gives you peace of mind by ensuring uninterrupted accessibility while you focus on building your business.</p>
+                    </div>
+                </div><!-- .col  -->
+                <div class="col-md-4">
+                    <div class="features-box">
+                        <img src="images/features-icon-light-c.png" alt="features">
+                        <h5>Reliable Service</h5>
+                        <p>We have provided uninterrupted service with zero downtime to over 2,900 stores.</p>
+                    </div>
+                </div><!-- .col  -->
+                <div class="col-md-4">
+                    <div class="features-box">
+                        <img src="images/features-icon-light-b.png" alt="features">
+                        <h5>Flexible Options</h5>
+                        <p>Pay only for the duration you need. You can suspend, restart, or extend your access as required.</p>
+                    </div>
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+            <div class="gaps size-2x d-none d-md-block"></div>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-12">
+                    <ul class="btns">
+                        <li><a href="https://docs.btcpayserver.org/?" class="btn" target="_blank">docs</a></li>
+                        <li><a href="https://bti.btcpayprovider.com/docs" class="btn btn-alt">API</a></li>
+                    </ul>
+                    <div class="gaps size-1x d-none d-md-block"></div>
+                    <!--<a href="https://t.me/+6xgzeTU439AyYmQx" class="btn btn-simple"> <em class="fa fa-paper-plane"></em> Join us on Telegram</a>-->
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+        </div><!-- .conatiner  -->
+        <div class="mask-ov-right mask-ov-s2"></div><!-- .mask overlay -->
+    </div>
+    <!-- Start Section -->
+
+
+    <!-- Start Section -->
+
+    <!-- Start Section -->
+
+
+
+    <!-- Start Section -->
+    <div class="section section-pad section-bg team-section section-gradiant section-fix bg-fixed" id="demo">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                    <div class="section-head-s2">
+                        <h6 class="heading-xs">demo</h6>
+                        <h2 class="section-title">Mobile App</h2>
+                        <p>Once you've created your account, you can manage everything from the dashboard. anyone with a smartphone and an internet connection can participate in the global marketplace. Btcpay not limited to this example use cases shown below.</p>
+
+                    </div>
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-3 d-inline-flex justify-content-center">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="images/service-icon-b.png" alt="team">
+                            <a href="#team-profile-2" class="expand-trigger content-popup"></a>
+                        </div>
+                        <div class="team-info">
+                            <h5 class="team-name">Point of <br>Sale App</h5>
+
+
+                        </div>
+
+                        <!-- Start .team-profile  -->
+                        <div id="team-profile-2" class="team-profile mfp-hide">
+                            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                            <div class="container-fluid">
+                                <div class="row no-mg">
+                                    <div class="col-md-6">
+                                        <div class="team-profile-photo">
+                                            <img src="images/pointofsale.PNG" alt="team" />
+                                        </div>
+                                    </div><!-- .col  -->
+
+                                    <div class="col-md-6">
+                                        <div class="team-profile-info">
+                                            <h3 class="name">Point of sale app</h3>
+                                            <p class="sub-title">Accept Bitcoin in retail</p>
+
+                                            <p>Store owners can use a built-in Point of Sale web app. Add products and images, set prices and customize as needed. The app is web-based and can be run on old phones and tablets – no need for specialist hardware. </p>
+                                            <p>Whether you sell product in store, out of the trunk of your car BTCPay has you covered. Start selling anywhere.</p>
+
+                                            <div class="skill-bars">
+                                                <div class="single-skill-bar">
+                                                    <div class="row no-mg">
+                                                        <div class="col-8 no-pd"><span class="skill-title">cost to use</span></div>
+                                                        <div class="col-4 text-right no-pd"><span class="skill-percent">$0</span></div>
+                                                    </div>
+                                                    <div class="skill-bar">
+                                                        <div class="skill-bar-percent gradiant-background" style="width:0%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill-bar">
+                                                    <div class="row no-mg">
+                                                        <div class="col-8 no-pd"><span class="skill-title">Convenience</span></div>
+                                                        <div class="col-4 text-right no-pd"><span class="skill-percent">9.5/10</span></div>
+                                                    </div>
+                                                    <div class="skill-bar">
+                                                        <div class="skill-bar-percent gradiant-background" style="width:95%"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="btns">
+                                                    <li><a href="https://bti.btcpayprovider.com/apps/iyN3tnFtsT6aPKJgH4A8AFf66jT/pos" class="btn" target="_blank">point of sale App</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col  -->
+
+                                </div><!-- .row  -->
+                            </div><!-- .container  -->
+                        </div><!-- .team-profile  -->
+
+                    </div>
+                </div><!-- .col  -->
+                <div class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="images/service-icon-a.png" alt="team">
+                            <a href="#team-profile-1" class="expand-trigger content-popup"></a>
+                        </div>
+                        <div class="team-info">
+                            <h5 class="team-name">woocommerce and Shopify integration <br> </h5>
+                            <ul class="team-social">
+                                <!--<li><a href=""><em class="fab fa-facebook-f"></em></a></li>
+								<li><a href=""><em class="fab fa-linkedin-in"></em></a></li>
+								<li><a href=""><em class="fab fa-twitter"></em></a></li>-->
+                            </ul>
+                        </div>
+
+                        <!-- Start .team-profile  -->
+                        <div id="team-profile-1" class="team-profile mfp-hide">
+                            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                            <div class="container-fluid">
+                                <div class="row no-mg">
+                                    <div class="col-md-6">
+                                        <div class="team-profile-photo">
+                                            <img src="images/transaction woo.png" alt="team" />
+                                        </div>
+                                    </div><!-- .col  -->
+
+                                    <div class="col-md-6">
+                                        <div class="team-profile-info">
+                                            <h3 class="name">BTCPay Server into your WooCommerce and shopify </h3>
+                                            <p class="sub-title">store</p>
+
+                                            <p>e-commerce, content creators, and other organizations that want to accept digital payment.
+                                                <div class="skill-bars">
+                                                    <div class="single-skill-bar">
+                                                        <div class="row no-mg">
+                                                            <div class="col-8 no-pd"><span class="skill-title">cost to use</span></div>
+                                                            <div class="col-4 text-right no-pd"><span class="skill-percent">$0</span></div>
+                                                        </div>
+                                                        <div class="skill-bar">
+                                                            <div class="skill-bar-percent gradiant-background" style="width:0%"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-skill-bar">
+                                                        <div class="row no-mg">
+                                                            <div class="col-8 no-pd"><span class="skill-title">convenience</span></div>
+                                                            <div class="col-4 text-right no-pd"><span class="skill-percent">10/10</span></div>
+                                                        </div>
+                                                        <div class="skill-bar">
+                                                            <div class="skill-bar-percent gradiant-background" style="width:100%"></div>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="btns">
+                                                        <li><a href="#" target="_blank" class="btn">Checkout</a></li>
+                                                    </ul>
+                                                </div>
+                                        </div>
+                                    </div><!-- .col  -->
+
+                                </div><!-- .row  -->
+                            </div><!-- .container  -->
+                        </div><!-- .team-profile  -->
+
+                    </div>
+                </div><!-- .col  -->
+
+
+
+                <div class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="images/service-icon-c.png" alt="team">
+                            <a href="#team-profile-3" class="expand-trigger content-popup"></a>
+                        </div>
+                        <div class="team-info">
+                            <h5 class="team-name">crowdfunding<br>campaign</h5>
+
+                        </div>
+
+                        <!-- Start .team-profile  -->
+                        <div id="team-profile-3" class="team-profile mfp-hide">
+                            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                            <div class="container-fluid">
+                                <div class="row no-mg">
+                                    <div class="col-md-6">
+                                        <div class="team-profile-photo">
+                                            <img src="images/campaign.PNG" alt="team" />
+                                        </div>
+                                    </div><!-- .col  -->
+
+                                    <div class="col-md-6">
+                                        <div class="team-profile-info">
+                                            <h3 class="name">Launch a crowdfunding campaign</h3>
+                                            <p class="sub-title">Blochain App Developer</p>
+
+                                            <p>Crowdfunding is an application which you can launch from BTCPay Server interface that allows you to create a self-hosted funding campaign, similar to Kickstarter or Indiegogo. Unlike traditional crowdfunding platforms, the creator of the campaign is the owner of the platform. Funds go directly to the creator's wallet without any fees. </p>
+                                            <div class="skill-bars">
+                                                <div class="single-skill-bar">
+                                                    <div class="row no-mg">
+                                                        <div class="col-8 no-pd"><span class="skill-title">cost to use</span></div>
+                                                        <div class="col-4 text-right no-pd"><span class="skill-percent">$0</span></div>
+                                                    </div>
+                                                    <div class="skill-bar">
+                                                        <div class="skill-bar-percent gradiant-background" style="width:0%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill-bar">
+                                                    <div class="row no-mg">
+                                                        <div class="col-8 no-pd"><span class="skill-title">convenince</span></div>
+                                                        <div class="col-4 text-right no-pd"><span class="skill-percent">10/10</span></div>
+                                                    </div>
+                                                    <div class="skill-bar">
+                                                        <div class="skill-bar-percent gradiant-background" style="width:100%"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="btns">
+                                                    <li><a href="https://bti.btcpayprovider.com/apps/2D1C4iu3Vo1smMuReC5zKVmBmbKz/crowdfund" target="_blank" class="btn">Campaign</a></li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div><!-- .col  -->
+
+                                </div><!-- .row  -->
+                            </div><!-- .container  -->
+                        </div><!-- .team-profile  -->
+
+                    </div>
+                </div><!-- .col  -->
+
+                <div class="col-md-6 col-lg-4 col-xl-3 d-inline-flex justify-content-center">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="images/service-icon-d.png" alt="team">
+                            <a href="#team-profile-4" class="expand-trigger content-popup"></a>
+                        </div>
+                        <div class="team-info">
+                            <h5 class="team-name">Create <br>Bitcoin invoices</h5>
+
+                        </div>
+
+                        <!-- Start .team-profile  -->
+                        <div id="team-profile-4" class="team-profile mfp-hide">
+                            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                            <div class="container-fluid">
+                                <div class="row no-mg">
+                                    <div class="col-md-6">
+                                        <div class="team-profile-photo">
+                                            <img src="images/invoice.PNG" alt="team" />
+                                        </div>
+                                    </div><!-- .col  -->
+
+                                    <div class="col-md-6">
+                                        <div class="team-profile-info">
+                                            <h3 class="name">Create Bitcoin invoices</h3>
+
+                                            <p>Create custom invoices which can be shared with customers by sending a link to the payment request. When the customer opens the link, they will see an invoice which can be customized to suit your business needs. </p>
+                                            <p>When payment is made, the payment request uses the exchange rate at the time of payment, which eliminates the volatility risk and allows your clients to pay at their convenience without having to negotiate or verify exchange rates with you at the time of payment.</p>
+                                            <div class="skill-bars">
+                                                <div class="single-skill-bar">
+                                                    <div class="row no-mg">
+                                                        <div class="col-8 no-pd"><span class="skill-title">cost to use</span></div>
+                                                        <div class="col-4 text-right no-pd"><span class="skill-percent">$0</span></div>
+                                                    </div>
+                                                    <div class="skill-bar">
+                                                        <div class="skill-bar-percent gradiant-background" style="width:0%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill-bar">
+                                                    <div class="row no-mg">
+                                                        <div class="col-8 no-pd"><span class="skill-title">Convenince</span></div>
+                                                        <div class="col-4 text-right no-pd"><span class="skill-percent">9.9/10</span></div>
+                                                    </div>
+                                                    <div class="skill-bar">
+                                                        <div class="skill-bar-percent gradiant-background" style="width:99%"></div>
+                                                    </div>
+                                                </div>
+                                                <ul class="btns">
+                                                    <li><a href="https://bti.btcpayprovider.com/payment-requests/51d6122b-4097-48fc-8a0f-1fcc9fa5d1ec" target="_blank" class="btn">invoice</a></li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- .col  -->
+
+                            </div><!-- .row  -->
+                        </div><!-- .container  -->
+                    </div><!-- .team-profile  -->
+
+                </div>
+
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-12">
+                    <ul class="btns">
+                        <li><a href="element-video.html" class="btn">VIDEO TUTORIAL</a></li>
+                    </ul>
+                    <div class="gaps size-1x d-none d-md-block"></div>
+
+                </div><!-- .col  -->
+            </div>
+            <!-- .r
+				
+			</div><!-- .row  -->
+
+        </div>
+    </div>
+    <!-- Start Section -->
+
+
+    <!-- Start Section -->
+
+
+
+    <!-- Start Section -->
+    <div class="section section-pad section-bg  section-pro contact-section" id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-head-s2">
+                        <h6 class="heading-xs">Contact</h6>
+                        <h2 class="section-title">Get In Touch</h2>
+                    </div>
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+            <div class="row">
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="gaps"></div>
+                    <p>Any question? Reach out to us and we'll get back to you shortly.</p>
+                    <ul class="contact-info-alt">
+                        <!--<li><em class="fa fa-phone"></em><span>1-800-900-1000</span></li>-->
+                        <li><em class="fa fa-envelope"></em><span>contact@btcpayprovider.com</span></li>
+                        <li><em class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
+                    </ul>
+                </div><!-- .col  -->
+                <div class="col-lg-5">
+                    <form id="contact-form" class="form-message text-left" action="form/contact.php" method="post">
+                        <div class="form-results"></div>
+                        <div class="input-field">
+                            <input name="contact-name" type="text" class="input-line required">
+                            <label class="input-title">Your Name</label>
+                        </div>
+                        <div class="input-field">
+                            <input name="contact-email" type="email" class="input-line required email">
+                            <label class="input-title">Your Email</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea name="contact-message" class="txtarea input-line required"></textarea>
+                            <label class="input-title">Your Message</label>
+                        </div>
+                        <input type="text" class="d-none" name="form-anti-honeypot" value="">
+                        <div class="input-field">
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </form>
+                </div><!-- .col  -->
+            </div><!-- .row  -->
+        </div><!-- .container  -->
+        <div class="mask-ov-right mask-ov-s6"></div><!-- .mask overlay -->
+    </div>
+    <!-- End Section -->
+
+    <!-- Start Section -->
+    <!--<div class="section section-pad section-bg-dark" id="partners">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-6 offset-md-3">
+					<div class="section-head">
+						<h3 class="section-title-md animated" data-animate="fadeInUp" data-delay=".1">Our Partner</h3>
+					</div>
+				</div>
+			</div>
+			<div class="partner-list">
+				<div class="row text-center">
+					<div class="col-sm col-6">
+						<div class="single-partner">
+							<img src="images/partner-xs-a.png" alt="partner">
+						</div>
+					</div>
+					<div class="col-sm col-6">
+						<div class="single-partner">
+							<img src="images/partner-xs-b.png" alt="partner">
+						</div>
+					</div>
+					<div class="col-sm col-6">
+						<div class="single-partner">
+							<img src="images/partner-xs-c.png" alt="partner">
+						</div>
+					</div>
+					<div class="col-sm col-6">
+						<div class="single-partner">
+							<img src="images/partner-xs-d.png" alt="partner">
+						</div>
+					</div>
+					<div class="col-sm col-6">
+						<div class="single-partner">
+							<img src="images/partner-xs-e.png" alt="partner">
+						</div>
+					</div>
+					<div class="col-sm col-6">
+						<div class="single-partner">
+							<img src="images/partner-xs-f.png" alt="partner">
+						</div>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-10 offset-md-1">
+						<div class="row">
+							<div class="col-sm col-6">
+								<div class="single-partner">
+									<img src="images/partner-sm-a.png" alt="partner">
+								</div>
+							</div>
+							<div class="col-sm col-6">
+								<div class="single-partner">
+									<img src="images/partner-sm-b.png" alt="partner">
+								</div>
+							</div>
+							<div class="col-sm col-6">
+								<div class="single-partner">
+									<img src="images/partner-sm-c.png" alt="partner">
+								</div>
+							</div>
+							<div class="col-sm col-6">
+								<div class="single-partner">
+									<img src="images/partner-sm-d.png" alt="partner">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>-->
+    <!-- End Section -->
+
+
+    <!-- Start Section -->
+    <div class="section footer-scetion footer-particle section-pad-sm section-bg-dark">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-sm-6 col-xl-4 res-l-bttm">
+	                <!--<a class="footer-brand" href="#">
+	                    <img class="logo logo-light" alt="logo" src="images/logo-white2x.png" srcset="images/logo-white2x.png 2x">
+	                </a>-->
+	                <ul class="social">
+	                    <!--<li><a href="#"><em class="fab fa-facebook-f"></em></a></li>-->
+	                    <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+	                    <li><a href="#"><em class="fab fa-youtube"></em></a></li>
+	                    <li><a href="#"><em class="fab fa-github"></em></a></li>
+	                    <li><a href="#"><em class="fab fa-bitcoin"></em></a></li>
+	                    <li><a href="#"><em class="fab fa-medium-m"></em></a></li>
+	                </ul>
+	            </div><!-- .col  -->
+	            <div class="col-sm-6 col-xl-4 res-l-bttm">
+	                <!--<div class="footer-subscription">
+						<h6>Subscribe to our newsleter</h6>
+						<!--<form id="subscribe-form" action="form/subscribe.phphttps://landing.mailerlite.com/webforms/landing/b1o8l2" method="post" class="subscription-form">
+						<form id="subscribe-form" action="form/subscribe.php" method="post" class="subscription-form">
+							<input type="text" name="youremail" class="input-round required email" placeholder="Enter your email" >
+							<input type="text" class="d-none" name="form-anti-honeypot" value="">
+							<button type="submit" class="btn btn-plane">Subscribe</button>
+							<div class="subscribe-results"></div>
+						</form>
+					</div>-->
+	            </div><!-- .col  -->
+	            <div class="col-xl-4">
+	                <ul class="link-widget">
+	                    
+	                    <!--<li><a href="http://lbtil.com" class="menu-link">BTI</a></li>-->
+
+	                    <li><a href="about-us.html" class="menu-link">About</a></li>
+	                    <li><a href="https://bti.btcpayprovider.com/login?ReturnUrl=%2F">User Log In</a></li>
+	                    <!--<li><a href="#">Terms &amp; Conditions</a></li>-->
+	                    <li>
+	                        <div class="language-switcher">
+	                            <a href="#" data-toggle="dropdown">EN</a>
+	                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+	                                <a class="dropdown-item" href="#">ET</a>
+	                                <a class="dropdown-item" href="#">CH</a>
+	                                <a class="dropdown-item" href="#">BR</a>
+	                            </div>
+	                        </div>
+	                    </li>
+
+	                </ul>
+	            </div><!-- .col  -->
+	        </div><!-- .row  -->
+	        <div class="gaps size-2x"></div>
+	        <div class="row">
+	            <div class="col-md-7">
+	                <span class="copyright-text">
+	                    Copyright &copy; 2019, Handcrafted by btcpayprovider.
+	                    <!--<span>All trademarks and copyrights belong to their respective owners.</span>-->
+	                </span>
+
+	            </div><!-- .row  -->
+	        </div><!-- .container  -->
+	    </div>
+        <!-- End Section -->
+
+        <!-- Preloader !remove please if you do not want -->
+        <div id="preloader">
+            <div id="loader"></div>
+            <div class="loader-section loader-top"></div>
+            <div class="loader-section loader-bottom"></div>
+        </div>
+        <!-- Preloader End -->
+
+        <!-- JavaScript (include all script here) -->
+        <script src="assets/js/jquery.bundle.js?ver=142"></script>
+        <script src="assets/js/script.js?ver=142"></script>
